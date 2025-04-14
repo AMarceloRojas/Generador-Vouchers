@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="email-container">
+        <div class="header">
+            <h1>Voucher de Compra</h1>
+        </div>
+        <div class="content">
+            <h1>Hola, <?= client_Name ?> <?= client_Last_Name ?></h1>
+            <p>En nombre de todo el equipo de Carlos Diaz, queremos agradecerle sinceramente por su preferencia y confianza en nuestros servicios. Nos complace informarle que hemos procesado su reciente transacción y le hemos adjuntado su voucher en este correo.</p>
+            <p>Esperamos que disfrute de los beneficios que este voucher le ofrece. Si tiene alguna pregunta o necesita asistencia adicional, no dude en ponerse en contacto con nosotros. Estamos aquí para ayudarle en todo lo que necesite.</p>
+            <p>Gracias nuevamente por elegir a Carlos Diaz. ¡Esperamos seguir colaborando con usted en el futuro!</p>
+            <p>Saludos cordiales.</p>
+            <div class="custom-box">
+                <p><strong>Número de Voucher:</strong> <?= orden ?></p>
+                <p><strong>Fecha Estimada de Entrega:</strong> <?= formattedDate2 ?></p>
+                <p><strong>Tracking:</strong> <?= tracking_yobel ?></p>
+            </div>
+            <div class="logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt2yev80WhCSD9g0dlolRa8-_gn_7fGFZFmg&s" alt="yape">
+            </div>
+        </div>
+        <div class="footer">
+            <p>© 2024 . Todos los derechos reservados.</p>
+        </div>
+    </div>
+</body>
+</html>
