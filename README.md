@@ -26,15 +26,7 @@ Este proyecto permite a los clientes generar vouchers automáticos con *etiqueta
 - Voucher personalizado en PDF
 - Mensaje de agradecimiento
 - Datos de su transacción o registro
-
-
-# Archivos del repositorio
-
-- `generador-etiquetas.gs`: Script principal con toda la lógica
-- `plantilla.html`: Estructura del voucher con QR/barra incrustado
-- `README.md`: Este documento
-
-
+  
 # Desarrollado por
 
 *Anthtonny Marcelo Rojas*  
